@@ -1,15 +1,22 @@
 <html>
 <head>
   <title>Ceaser Cipher</title>
+  <link rel="stylesheet" href="style.css" >
+  <link href="https://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 </head>
 <body>
-  <form>
-    <label>Enter yout text here</label>
-    <input type='text' name='text' />
-    <label>Shifting factor</label>
-    <input type='text' name='shift' />
-    <input type='submit' value='Encrypt!' />
-  </form>
+  <p class="info">anistor86's project - theodinproject.com</p>
+  <h1>Caesar Cipher</h1>
+  <div>
+    <form>
+      <label>Enter yout text here</label>
+      <input type='text' name='text' />
+      <label>Shifting factor</label>
+      <input type='text' name='shift' />
+      <input type='submit' value='Encrypt!' />
+    </form>
+  </div>
   <p><%= encrypted %></p>
 </body>
 </html>
